@@ -1,0 +1,12 @@
+application:
+  allowed-get-accounts: ${accounts.allowed.accounts}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+eureka:
+  client:
+    register-with-eureka: true

@@ -1,0 +1,16 @@
+POST http://localhost:8181/api/accounts
+Content-Type: application/json
+
+{
+  "name": "333",
+  "type": "333",
+  "currency": "USD",
+  "value": 333,
+  "owner": 3
+}
+
+###
+GET http://localhost:8181/api/accounts/3
+Accept: application/json
+
+###
